@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqra Wajid | Computer Science Graduate & Professional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --accent-light: #eff6ff;
+            --text-main: #334155;
+            --text-muted: #64748b;
+            --bg-body: #f8fafc;
+            --white: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #1e293b);
+            color: var(--white);
+            padding: 5rem 2rem 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.025em;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            max-width: 650px;
+            margin: 0 auto 2rem auto;
+            font-weight: 300;
+        }
+
+        .header-contact {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: #cbd5e1;
+        }
+
+        .header-contact a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .header-contact a:hover {
+            color: var(--white);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -3rem auto 4rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: var(--white);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-light);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 2rem;
+            position: relative;
+            padding-left: 1.5rem;
+            border-left: 2px solid var(--accent);
+        }
+
+        .experience-item:last-child, .education-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .role-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .company-name {
+            font-weight: 500;
+            color: var(--accent);
+            margin-bottom: 0.25rem;
+        }
+
+        .date-badge {
+            display: inline-block;
+            background: var(--accent-light);
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.2rem 0.75rem;
+            border-radius: 50px;
+            margin-bottom: 0.75rem;
+        }
+
+        ul.details-list {
+            list-style-type: disc;
+            padding-left: 1.25rem;
+            color: var(--text-main);
+        }
+
+        ul.details-list li {
+            margin-bottom: 0.4rem;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            list-style: none;
+            padding: 0;
+            margin-top: 0.5rem;
+        }
+
+        .skills-grid li {
+            background: var(--bg-body);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 0.4rem 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .meta-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .meta-block h3 {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            background: var(--white);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Iqra Wajid</h1>
+        <p>Computer Science Graduate & Education Professional bridging technology, organization, and administration.</p>
+        <div class="header-contact">
+            <span>📞 0312-8726757</span>[cite: 1]
+            <span>✉️ Iqramalik123786@gmail.com</span>[cite: 1]
+            <span>📍 Islamabad / Lahore, Pakistan</span>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section>
+            <h2>About Me</h2>
+            <p>Dedicated and motivated Computer Science graduate with a robust foundation in information technology, administration, communication, teamwork, decision-making, and problem-solving[cite: 1]. Experienced in academic mentorship, tutoring, and institutional support systems[cite: 1]. Seeking to leverage organization, accuracy, integrity, and continuous learning to deliver exceptional value in professional environments[cite: 1].</p>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="role-title">Admin Role</div>
+                <div class="company-name">Aspire Group of Colleges</div>
+                <div class="date-badge">September 2026 – Present</div>
+                <ul class="details-list">
+                    <li>Managing administrative operations, institutional coordination, and student data systems efficiently.</li>
+                    <li>Facilitating clear professional communication between faculty, administration, and students.</li>
+                    <li>Ensuring institutional accuracy, organized record-keeping, and smooth daily workflows.</li>
+                </ul>
+            </div>
+
+            <br>
+
+            <div class="experience-item">
+                <div class="role-title">Home Tutor / Private Tutoring</div>
+                <div class="company-name">Independent / Private Tutoring</div>
+                <div class="date-badge">2017 – 2022[cite: 1]</div>
+                <ul class="details-list">
+                    <li>Planned and delivered tailored lessons according to individual student learning needs[cite: 1].</li>
+                    <li>Communicated academic concepts clearly and professionally to students from diverse backgrounds[cite: 1].</li>
+                    <li>Developed advanced organizational skills, patience, and interpersonal management[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <div class="role-title">Bachelor of Science in Computer Science</div>
+                <div class="company-name">National University of Modern Languages (NUML), Islamabad</div>
+                <div class="date-badge">2021 – 2024[cite: 1]</div>
+            </div>
+
+            <div class="education-item">
+                <div class="role-title">Associate Degree Program - IT and Management</div>
+                <div class="company-name">University of Central Punjab, Lahore</div>
+                <div class="date-badge">2018 – 2020[cite: 1]</div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Core Competencies & Interests</h2>
+            
+            <div class="meta-info">
+                <div class="meta-block">
+                    <h3>Professional Skills</h3>
+                    <ul class="skills-grid">
+                        <li>Decision Making[cite: 1]</li>
+                        <li>Communication[cite: 1]</li>
+                        <li>Teamwork[cite: 1]</li>
+                        <li>Time Management[cite: 1]</li>
+                        <li>Problem Solving[cite: 1]</li>
+                        <li>Administration</li>
+                        <li>Organization & Accuracy</li>
+                    </ul>
+                </div>
+
+                <div class="meta-block">
+                    <h3>Languages & Interests</h3>
+                    <ul class="skills-grid">
+                        <li>Urdu (Native)[cite: 1]</li>
+                        <li>English (Fluent)[cite: 1]</li>
+                        <li>German (Basic)[cite: 1]</li>
+                        <li>Reading & Writing[cite: 1]</li>
+                        <li>Poetry[cite: 1]</li>
+                        <li>Continuous Learning[cite: 1]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Iqra Wajid. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
